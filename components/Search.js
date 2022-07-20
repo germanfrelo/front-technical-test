@@ -1,7 +1,10 @@
-export function Search(props) {
+export function Search({ placeholder, className, searchChange }) {
 	return (
-		<>
-			{/* TODO */}
-		</>
+		<input
+			type="search"
+			placeholder={placeholder}
+			className={className}
+			onChange={searchChange}
+		></input>
 	);
 }
