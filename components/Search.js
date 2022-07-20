@@ -1,7 +1,7 @@
 export function Search(props) {
-  return (
-    <>
-      {/* TODO */}
-    </>
-  )
+	return (
+		<>
+			{/* TODO */}
+		</>
+	);
 }
